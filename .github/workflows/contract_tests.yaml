@@ -45,7 +45,7 @@ jobs:
                     coverage: none
 
             -   name: Build test application
-                uses: SyliusLabs/BuildTestAppAction@v2.2
+                uses: NoResponseMate/BuildTestAppAction@maintenance/allow-setting-working-dir
                 with:
                     e2e: "yes"
                     e2e_js: "yes"
